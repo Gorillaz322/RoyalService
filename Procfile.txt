@@ -1,0 +1,1 @@
+web: gunicorn royal_service:app --log-file -
