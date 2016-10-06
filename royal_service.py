@@ -47,7 +47,7 @@ def send_email():
 
     msg = Message(
         'Запрос: {}'.format(data['reason'].encode('utf-8')),
-        recipients=['jyvylo@mail.ru'],
+        recipients=[settings.MAIL_DEFAULT_RECEIVER],
         html=render_template('email.html', date=datetime.datetime.now(EST()), **data),
         sender=settings.MAIL_DEFAULT_SENDER
     )

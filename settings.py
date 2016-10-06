@@ -1,11 +1,14 @@
-MAIL_SERVER = 'smtp.googlemail.com'
+import os
+
+MAIL_SERVER = 'smtp.mail.ru'
 MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
 
 # mail authentication
-MAIL_USERNAME = 'jyvylo5@gmail.com'
-MAIL_PASSWORD = '19740105bbcc'
+MAIL_USERNAME = os.environ.get('APP_MAIL_USERNAME')
+MAIL_PASSWORD = os.environ.get('APP_MAIL_PASSWORD')
 
 # mail accounts
-MAIL_DEFAULT_SENDER = 'jyvyl5o@gmail.com'
+MAIL_DEFAULT_SENDER = os.environ.get('MAIL_DEFAULT_SENDER')
+MAIL_DEFAULT_RECEIVER = os.environ.get('MAIL_DEFAULT_RECEIVER')
