@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="{{ url_for('static', filename='css/porsche_style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <p class="hidden-text page-type">Porcshe</p>
+    <div class="navbar-fixed">
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="main-nav-buttons right hide-on-med-and-down">
+                    <li class="nav-text-li"><span class="nav-text hide-on-med-and-down">СПЕЦИАЛИЗИРОВАННОЕ КОМПЛЕКСНОЕ ОБСЛУЖИВАНИЕ PORSCHE</span></li>
+                    <li><a class="simple-nav-btn nav-btn-1 nav-anim-btn">Преимущества</a></li>
+                    <li><a class="simple-nav-btn nav-btn-2 nav-anim-btn">Услуги</a></li>
+                    <li><a class="simple-nav-btn nav-btn-3 nav-anim-btn">Контакты</a></li>
+                    <li><a class="waves-effect red darken-3 open-modal-btn waves-light btn">Заказать звонок</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a class="mobile-btn nav-btn-1 nav-anim-btn">Преимущества</a></li>
+                    <li><a class="mobile-btn nav-btn-2 nav-anim-btn">Услуги</a></li>
+                    <li><a class="mobile-btn nav-btn-3 nav-anim-btn">Контакты</a></li>
+                    <li><a class="open-modal-btn">Заказать звонок</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="s1">
+        <div class="row">
+            <div class="col l7 m8 hide-on-small info-1">
+                <div class="border-left">
+                    <span class="flow-text">КОМПЛЕКСНАЯ ДИАГНОСТИКА ВСЕХ СИСТЕМ АВТОМОБИЛЯ ПО 110 ПУНКТАМ КОНТРОЛЯ БЕСПЛАТНО!</span>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card first-card grey darken-4">
+                    <div class="card-content white-text center">
+                        <span class="card-title">Оставьте заявку</span>
+                        <p>ПОЛНАЯ диагностика прямо сейчас и мы проведем ее Вам абсолютно БЕСПЛАТНО</p>
+                    </div>
+                    <div class="first-form">
+                        <p class="reason hidden-text">Полная диагностика</p>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="first" type="text" class="name-input validate">
+                                <label for="first">Введите ваше имя</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="first" type="text" class="validate tel-input">
+                                <label for="first">Введите ваш телефон</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-action center">
+                      <a class="send-request-btn">Отправить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s2 content-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="txts2_1">Почему Вам стоит обслуживать свой Porsche именно у нас?</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2_1">
+                    <img src="static/img/icons2_1.png" alt="icons2_1" class="img-responsive">
+                    <div class="txts2_2">Более 500 клиентов</div>
+                    <div class="txts2_3">Более 500 владельцев Porsche доверили нам обслуживание своих авто.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2_1">
+                    <img src="static/img/icons2_2.png" alt="icons2_2" class="img-responsive">
+                    <div class="txts2_2">9 лет опыта</div>
+                    <div class="txts2_3">Специалисты нашей команды профессионально работают с автомобилями Porsche более 9 лет.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2_2">
+                    <img src="static/img/icons2_3.png" alt="icons2_3" class="img-responsive">
+                    <div class="txts2_2">Оригинальное оборудование Porsche</div>
+                    <div class="txts2_3">Мы используем только оригинальный инструмент и оборудование Porsche, что позволяет нам гарантировать наивысшее качество и скорость обслуживания.</div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2_3">
+                    <img src="static/img/icons2_4.png" alt="icons2_4" class="img-responsive">
+                    <div class="txts2_2">Более 3000 оригинальных запчастей</div>
+                    <div class="txts2_3">На нашем складе более 3000 оригинальных запчастей и деталей Porsche, а также большой ассортимент фирменных аксессуаров. Если же необходимой запчасти в данный момент на складе нет, мы привезем ее Вам в срок от 1-го до 7-ми дней.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2_3">
+                    <img src="static/img/icons2_5.png" alt="icons2_5" class="img-responsive">
+                    <div class="txts2_2">Цены ниже чем у конкурентов</div>
+                    <div class="txts2_3">Большой опыт работы с автомобилями Porsche и наличие постоянной клиентской базы позволяет нам производить обслуживание автомобилей по самым привлекательным ценам.</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 boxs2">
+                    <img src="static/img/icons2_6.png" alt="icons2_6" class="img-responsive">
+                    <div class="txts2_2">Бесплатные услуги для постоянных наших клиентов</div>
+                    <div class="txts2_3">
+                        Такси<br>
+                        - Эвакуатор<br>
+                        - Техническая поддержка<br>
+                        - Мойка автомобиля<br>
+                        - Доставка автомобиля до и после обслуживания<br>
+                        - Фирменные подарки Porsche
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s3 content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="txts3_1">Наши услуги</div>
+                    <div class="txts3_2">Royal World Service предлагает полный спектр услуг сервисного обслуживания автомобилей Porsche</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator img-responsive" src="static/img/icons3_2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title grey-text reason text-darken-4">Комплексная диагностика автомобиля</span>
+                            <div class="card-action">
+                                <a class="activator">Заказать</a>
+                            </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Комплексная диагностика автомобиля<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                                <div class="row">
+                                    <div class="input-field col s12 left">
+                                        <input id="first" type="text" class="name-input validate">
+                                        <label for="first">Введите ваше имя</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="first" type="text" class="validate tel-input">
+                                        <label for="first">Введите ваш телефон</label>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                  <a class="send-request-btn">Отправить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_1.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Восстановление двигателя</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Восстановление двигателя<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                          <div class="row">
+                            <div class="input-field col s12 left">
+                              <input id="first" type="text" class="name-input validate">
+                              <label for="first">Введите ваше имя</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="first" type="text" class="validate tel-input">
+                              <label for="first">Введите ваш телефон</label>
+                            </div>
+                        </div>
+                            <div class="card-action">
+                              <a class="send-request-btn">Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_3.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Ремонт ходовой</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Ремонт ходовой<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                              <div class="row">
+                                <div class="input-field col s12 left">
+                                  <input id="first" type="text" class="name-input validate">
+                                  <label for="first">Введите ваше имя</label>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="first" type="text" class="validate tel-input">
+                                      <label for="first">Введите ваш телефон</label>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                  <a class="send-request-btn">Отправить</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_4.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Сход-развал</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Сход-развал<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                          <div class="row">
+                            <div class="input-field col s12 left">
+                              <input id="first" type="text" class="name-input validate">
+                              <label for="first">Введите ваше имя</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="first" type="text" class="validate tel-input">
+                              <label for="first">Введите ваш телефон</label>
+                            </div>
+                        </div>
+                            <div class="card-action">
+                              <a class="send-request-btn">Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_5.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Регламентное обслуживание</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Регламентное обслуживание<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                              <div class="row">
+                                <div class="input-field col s12 left">
+                                  <input id="first" type="text" class="name-input validate">
+                                  <label for="first">Введите ваше имя</label>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="first" type="text" class="validate tel-input">
+                                      <label for="first">Введите ваш телефон</label>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                  <a class="send-request-btn">Отправить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_6.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Помощь при покупке/продаже автомобиля</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Помощь при покупке/продаже автомобиля<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                          <div class="row">
+                            <div class="input-field col s12 left">
+                              <input id="first" type="text" class="name-input validate">
+                              <label for="first">Введите ваше имя</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="first" type="text" class="validate tel-input">
+                              <label for="first">Введите ваш телефон</label>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                          <a class="send-request-btn">Отправить</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_7.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Дооснащение автомобиля аксессуарами</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Дооснащение автомобиля аксессуарами<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                              <div class="row">
+                                <div class="input-field col s12 left">
+                                  <input id="first" type="text" class="name-input validate">
+                                  <label for="first">Введите ваше имя</label>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                      <input id="first" type="text" class="validate tel-input">
+                                      <label for="first">Введите ваш телефон</label>
+                                    </div>
+                                </div>
+                                <div class="card-action">
+                                  <a class="send-request-btn">Отправить</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    </div>
+
+                <div class="col s12 m12 l6 mh170 mart_50">
+                    <div class="card center">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator img-responsive" src="static/img/icons3_8.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title reason grey-text text-darken-4">Шиномонтаж</span>
+                          <div class="card-action">
+                              <a class="activator">Заказать</a>
+                          </div>
+                        </div>
+                        <div style="margin-left: -20px;" class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Шиномонтаж<i class="material-icons right">close</i></span>
+                            <div class="order-service-form">
+                          <div class="row">
+                            <div class="input-field col s12 left">
+                              <input id="first" type="text" class="name-input validate">
+                              <label for="first">Введите ваше имя</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                              <input id="first" type="text" class="validate tel-input">
+                              <label for="first">Введите ваш телефон</label>
+                            </div>
+                        </div>
+                            <div class="card-action">
+                              <a class="send-request-btn">Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s4">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="txts4_1">Royal World Service это</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 nopad five-three">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mart_20">
+                            <div class="txts4_2">С <span>2010</span> мы успешно радуем наших клиентов</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mart_20">
+                            <div class="txts4_2">В наличии <span>более 911</span> найменований оборудования и специнструмента</div>
+                        </div>
+                        <div class="col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0 mart_20">
+                            <div class="txts4_2">У нас <span>97,5%</span> восхищенных клиентов</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 nopad five-two">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mart_20">
+                            <div class="txts4_2"> Мы <span> 1</span> повышаем стандарты сервиса</div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 mart_20">
+                            <div class="txts4_2">Все <span>11</span> наших сотрудников Истинные фанаты автомобилей Porsche </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+              <a class="waves-effect waves-light btn modal-trigger open-modal-btn grey darken-4">Получить консультацию</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="s9">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="txts3_1">Отзывы</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s10">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 cnt hidden">
+                    <img src="static/img/foto_1.jpg" alt="foto_1" class="img-responsive foto">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="txts10_1">Валентин г. Одесса</div>
+                    <div class="box_s10">
+                        <img src="static/img/quots.png" alt="quots" class="img-responsive">
+                        <div class="txts10_2">Владелец автомобиля Porsche Cayenne S</div>
+                        <div class="txts10_3">На данный момент пробег уже 200 000 км. Знаю ребят уже более пяти лет. Отношение сотрудников Royal World Service вежливое по форме и высококачественное по содержанию. Очень доволен!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s10_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 cnt hidden">
+                    <img src="static/img/foto_2.jpg" alt="foto_2" class="img-responsive foto">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="txts10_1">Олег г. Одесса</div>
+                    <div class="box_s10">
+                        <img src="static/img/quots.png" alt="quots" class="img-responsive">
+                        <div class="txts10_2">Владелец автомобилей: Posrche Cayenne turbo, Porsche Boxter S</div>
+                        <div class="txts10_3">У меня сломался топливный насос высокого давления. Обратился к ребятам, поставили новый, но примерно через полгода он вышел из строя. Ребята не подвели. Мало того, что мне поменяли его по - гарантии, проблему решили в течении одного дня! Мужики - вы лучшие, спасибо большое!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s10_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 cnt hidden">
+                    <img src="static/img/foto_3.jpg" alt="foto_3" class="img-responsive foto">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                    <div class="txts10_1">Сергей г. Одесса</div>
+                    <div class="box_s10">
+                        <img src="static/img/quots.png" alt="quots" class="img-responsive">
+                        <div class="txts10_2">Владелец автомобилей Porsche Cayenne S</div>
+                        <div class="txts10_3">Выехал с мойки зимой, постоял пару минут и понял, что машина не заводится. Дико спешил на встречу. Набрал ребят. Костя приехал очень быстро, со всем необходимым инструментом и помог запустить двигатель после разряда аккумулятора. Искренне благодарен за человеческое отношение!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="s9 content-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="txts3_1">Наши контакты</div>
+                </div>
+            </div>
+            <div class="adres hidden-xs">
+                <div class="txts9_1">Наши Контакты:</div>
+                <img src="static/img/point.png" alt="point" class="img-responsive">
+                <div class="txts9_2">г. Киев, ул. Лятошинського 2б</div>
+                <img src="static/img/whats.png" alt="whats" class="img-responsive">
+                <div class="txts9_2">098 750 95 09, 044 250 88 45</div>
+                <img src="static/img/mail2.png" alt="mail2" class="img-responsive">
+                <div class="txts9_2">mail@mail.ua</div>
+            </div>
+        </div>
+
+        <div id="map"></div>
+    </div>
+
+
+    <div class="row">
+        <div class="col l3 offset-l6 m6 offset-m3 s10 offset-s1">
+            <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div class="center">
+              <h4 class="reason">Получить консультацию</h4>
+              </div>
+              <div class="row">
+                  <div class="input-field col s12 left">
+                      <input id="first" type="text" class="name-input validate">
+                      <label for="first">Введите ваше имя</label>
+                </div>
+              </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input id="first" type="text" class="validate tel-input">
+                  <label for="first">Введите ваш телефон</label>
+                </div>
+            </div>
+            </div>
+            <div class="modal-footer center">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat send-request-btn">Отправить</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer center">
+        <h3 class="footer-text">Oстались вопросы?</h3>
+        <div class="row">
+            <a class="waves-effect waves-light btn modal-trigger open-modal-btn grey darken-4">Получить консультацию</a>
+        </div>
+    </div>
+</body>
+
+
+<script src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.maskedinput.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/car_js.js') }}"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&language=en&key=AIzaSyAmWxiu-eSjUZnT2HFMlnkaKdoB9abiKT0&callback=initMap"></script>
+<script>initPage();</script>
+</html>

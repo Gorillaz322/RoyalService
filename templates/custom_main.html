@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Compiled and minified CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="{{ url_for('static', filename='css/custom_style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar grey darken-4">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 center">
+                <p class="center logo white-text">LOGO</p>
+            </div>
+            <div class="hidden-xs hidden-md hidden-sm col-lg-11">
+                <p class="white-text main-text center">Cпециализированное комплексное обслуживание</p>
+                <p class="white-text simple-text center">Выбери свой сервис</p>
+            </div>
+        </div>
+    </div>
+    <section class="s1">
+        <div class="row cars">
+            <div class="col s12 m6 center">
+                <div class="car_in">
+                    <a href="http://localhost:5000/porsche">
+                        <img src="static/img/main_page/porsche.png" alt="porsche" class="img-responsive">
+                    </a>
+                </div>
+                <a href="http://localhost:5000/porsche" class="waves-effect waves-light red darken-3 btn">перейти на сайт</a>
+            </div>
+            <div class="col s12 m6 center">
+                <div class="car_in">
+                    <a href="http://localhost:5000/range">
+                        <img src="static/img/main_page/range.png" alt="porsche" class="img-responsive">
+                    </a>
+                </div>
+                <a href="http://localhost:5000/range" class="waves-effect green darken-3 waves-light btn">перейти на сайт</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+<!-- Compiled and minified JavaScript -->
+    <script src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script src="{{ url_for('static', filename='js/custom_js.js') }}"></script>
+
+</html>
